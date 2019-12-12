@@ -110,8 +110,8 @@ h2::after{
     clear: both;
     display: table;
 }
-ul {
-    padding-right: 0%;
+.featured-product-list {
+    padding-right: 0px;
 }
 article{
     width: 350px;
