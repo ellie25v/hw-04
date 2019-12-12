@@ -96,13 +96,12 @@ h2::after{
     vertical-align: top;
     font-size: 18px;
 }
-
-.featured-product-title:hover{
+.featured-product-item:hover .featured-product-title {
     background-color: rgb(72,198,172);
 } 
-.featured-product-list-item .price:hover{
+.featured-product-item:hover  .featured-product-list-item .price {
     background-color: rgb(72,198,172);
-}
+} 
 .clearfix {
     overflow: auto;
 }
