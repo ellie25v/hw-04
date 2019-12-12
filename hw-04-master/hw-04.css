@@ -107,6 +107,107 @@ h2::after{
 ul {
     padding-right: 0%;
 }
+article{
+    width: 350px;
+    margin: 15px;
+    float: left;
+    display: inline-block;
+}
+.latest-news-article-content {
+    font-size: 14px;
+}
+.latest-news-article-title::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 4px;
+    width: 137px;
+    background-color:  rgb(72, 198, 172);
+    vertical-align: bottom;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 19px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(82,85,85);
+    font-size: 18px;
+    line-height: 21px;
+    width: 1140px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 48px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 8px;
+    width: 165px;
+    background-color:  rgb(72, 198, 172);
+    margin: 0 auto;
+    vertical-align: bottom;
+    margin-top: 33px;
+
+}
+.featured-product-list-item{
+    width: 256px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.featured-product-list li{
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    width: 256px;
+    margin: 14px;
+}
+.featured-product-title{
+    background: rgb(50, 50, 50);
+    color: white;
+    padding: 14px;
+}
+.featured-product-list-item p{
+    background-color: rgb(140,140,140);
+    color: white;
+    text-align:right;
+    float:right;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+.featured-product-title, .featured-product-list-item .price{
+    margin:0px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul {
+    padding-right: 0%;
+}
 
     
 body{
