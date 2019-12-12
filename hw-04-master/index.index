@@ -85,7 +85,7 @@
                
             </ul>
         </section>
-        <section class="latest-news">
+        <section class="latest-news clearfix">
             <article class="latest-news-article">
                 <img src="images/map.jpg" alt="map" width="350px" height="260px">
                 <h3 class="latest-news-article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </h3>
