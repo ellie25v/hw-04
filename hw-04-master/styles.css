@@ -136,7 +136,7 @@ h2::after{
 } 
 .link:hover .price,
 .link:focus .price {
-        background-color: rgb(72,198,172);
+        background-color: #7fd9c7;
 } 
 .clearfix {
     overflow: auto;
