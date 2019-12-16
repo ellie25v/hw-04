@@ -134,8 +134,9 @@ h2::after{
 .link:focus .featured-product-title {
     background-color: rgb(72,198,172);
 } 
-.featured-product-item:hover  .featured-product-list-item .price {
-    background-color: rgb(72,198,172);
+.link:hover .price,
+.link:focus .price {
+        background-color: rgb(72,198,172);
 } 
 .clearfix {
     overflow: auto;
