@@ -60,7 +60,6 @@ body{
     line-height: 21px;
     margin: 0 auto;
 }
-
 h2{
     font-size: 48px;
     color: black;
@@ -79,8 +78,11 @@ h2::after{
     margin-top: 33px;
 
 }
+.featured-product-list{
+    font-size: 0px;
+}
 .featured-product-list-item{
-    width: 256px;
+    width: 255px;
     text-transform: uppercase;
     list-style: none;
 }
@@ -100,9 +102,15 @@ h2::after{
 .featured-product-title{
     background: rgb(50, 50, 50);
     color: white;
-    padding: 14px;
+    float: left;
+    font-size: 18px;
+    width: 201px;
+    letter-spacing: -0,36px;
+    line-height: 32px;
+    text-indent: 12px;
+
 }
-.featured-product-list-item p{
+.price{
     background-color: rgb(140,140,140);
     color: white;
     text-align:right;
@@ -110,7 +118,11 @@ h2::after{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
-    width: 53px;
+    width: 55px;
+    font-weight: 700;
+    letter-spacing: -0,28px;
+    line-height: 32px;
+    text-indent: 12px;
 }
 .featured-product-title, .featured-product-list-item .price{
     margin:0px;
@@ -118,7 +130,8 @@ h2::after{
     vertical-align: top;
     font-size: 18px;
 }
-.featured-product-item:hover .featured-product-title {
+.link:hover .featured-product-title,
+.link:focus .featured-product-title {
     background-color: rgb(72,198,172);
 } 
 .featured-product-item:hover  .featured-product-list-item .price {
@@ -135,6 +148,9 @@ h2::after{
 .featured-product-list {
     padding-left: 0px;
 }
+.latest-news{
+    font-size: 0px;
+}
 article{
     width: 350px;
     margin: 15px;
@@ -142,13 +158,17 @@ article{
     display: inline-block;
 }
 article:first-child{
-    margin-left: 0px;
+    margin-left: 0;
 }
 article:last-child{
     margin-right: 0px;
 }
 .latest-news-article-content {
     font-size: 14px;
+}
+.latest-news-article-title{
+    font-size: 18px;
+    font-weight: 400;
 }
 .latest-news-article-title::after{
     content: "";
