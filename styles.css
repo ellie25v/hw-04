@@ -113,7 +113,7 @@ h2::after{
 .price{
     background-color: rgb(140,140,140);
     color: white;
-    text-align:right;
+    text-align: center;
     float:right;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
