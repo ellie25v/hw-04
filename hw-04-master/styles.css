@@ -1,0 +1,211 @@
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.main-header{
+    font-family: 'Open Sans', sans-serif;
+}
+.main-menu{
+    margin: 0;
+    padding: 0;
+    
+}
+.main-logo a{
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: inline-block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.main-logo a::first-letter {
+      font-weight: 700;
+      color: #4ec6ab;
+}
+.main-header ul {
+    float: right;
+    font-size: 0;
+}
+.main-menu li{
+    float: left;
+    text-decoration: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.main-menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    display: block;
+    text-align: left;
+    color: black;
+}
+.main-menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 198, 172);
+  }
+.main-menu a.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 198, 172);
+    background-color: rgb(72, 198, 172);
+    color: rgb(255, 255, 255);
+ }
+    
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(82,85,85);
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 48px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 8px;
+    width: 165px;
+    background-color:  rgb(72, 198, 172);
+    margin: 0 auto;
+    vertical-align: bottom;
+    margin-top: 33px;
+
+}
+.featured-product-list{
+    font-size: 0px;
+    margin: 0;
+}
+.featured-product-list-item{
+    width: 255px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.featured-product-list li{
+    text-decoration: none;
+    display: inline-block;
+    width: 256px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.featured-product-list li:nth-child(4n){
+    margin-right: 0px;
+}
+.featured-product-list li:nth-child(n+5){
+    margin-bottom: 0px;
+}
+.featured-product-title{
+    background: rgb(50, 50, 50);
+    color: white;
+    float: left;
+    font-size: 18px;
+    width: 201px;
+    letter-spacing: -0,36px;
+    line-height: 32px;
+    text-indent: 12px;
+
+}
+.price{
+    background-color: rgb(140,140,140);
+    color: white;
+    text-align: center;
+    float:right;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 55px;
+    font-weight: 700;
+    letter-spacing: -0,28px;
+    line-height: 32px;
+    text-indent: 12px;
+}
+.featured-product-title, .featured-product-list-item .price{
+    margin:0px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+}
+.link:hover .featured-product-title,
+.link:focus .featured-product-title {
+    background-color: rgb(72,198,172);
+} 
+.link:hover .price,
+.link:focus .price {
+        background-color: #7fd9c7;
+} 
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.featured-product-list {
+    padding-left: 0px;
+}
+.latest-news{
+    font-size: 0px;
+}
+article{
+    width: 350px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    display: inline-block;
+}
+
+article:last-child{
+    margin-right: 0px;
+}
+.latest-news-article-content {
+    font-size: 14px;
+    margin: 0;
+}
+.latest-news-article-title{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.latest-news-article-title::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 4px;
+    width: 137px;
+    background-color:  rgb(72, 198, 172);
+    vertical-align: bottom;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+}
+img{
+    display: block;
+    max-width:100%;
+    height: auto;
+}
+.read-more {
+    background-color: #4ec6ab;
+    border: none;
+    color: white;
+    padding: 19px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+.read-more:hover {
+    background-color: #7fd9c7;
+    color: #4ec6ab;
+}
